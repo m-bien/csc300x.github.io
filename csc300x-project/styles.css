@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    font-family: 'Calibri';
+    margin: 0;
+}
+
+.footer {
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* --- splash section - reference: bannerbear --- */
+.center-fit {
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    line-height: 16px;
+    text-align: center;
+}
+
+/* --- nav bar --- */
+#navbar {
+    padding: 25px 25px 35px 35px;
+}
+
+.logo {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 25px;
+    text-align: left;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* --- search field --- */
+#search {
+    float: right;
+    padding: 25px 25px 35px 25px;
+}
+
+#search button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
