@@ -1,0 +1,97 @@
+body {
+    background-color: white;
+    font-family: 'Calibri';
+    margin: 0;
+}
+
+.footer {
+    margin: auto;
+    background-color: white;
+    border-top:solid 1px gray;
+    text-align: center;
+    font-size: 12px;
+}
+
+h2 {
+    margin-left: 45px;
+}
+
+p.small {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+}
+
+/* --- nav bar --- */
+#navbar {
+    padding: 25px 25px 35px 35px;
+}
+
+.logo {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 25px;
+    text-align: left;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* --- search field --- */
+#search {
+    float: right;
+    padding: 25px 25px 35px 25px;
+}
+
+#search button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* --- grid layout, reference: w3schools --- */
+.grid-container {
+    display: grid;
+    margin: 25px 35px 25px 35px;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    padding: 10px;
+    column-gap: 25px;
+}
+
+.grid-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* --- table (shopping cart) --- */
+table {
+    border-collapse: collapse;
+    width: 35%;
+}
+
+td, th {
+    text-align: left;
+    padding: 14px 0px 14px 0px;
+}
+
+tr {
+    border-bottom: 1px solid gray;
+}
