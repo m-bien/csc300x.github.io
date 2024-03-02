@@ -1,0 +1,79 @@
+/* --- overall --- */
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Calibri';
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+input {
+    font-family: 'Calibri';
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px 5px 10px 5px;
+}
+
+input:focus {
+    border: 1px solid black;
+    outline: none;
+}
+
+button {
+    background-color: pink;
+    padding: 8px 24px;
+    font-weight: bolder;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+
+footer {
+    margin: 0;
+    padding: 1px;
+    background-color: whitesmoke;
+    border-top: 1px solid lightgray;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* --- navigation --- */
+nav {
+    padding: 1px 50px 0px 35px;
+    background-color: white;
+    height: 150px;
+}
+
+.logo {
+    float: left;
+}
+
+ul {
+    list-style: none;
+    border-top: 2px solid rgba(128, 128, 128, 0.15)
+}
+
+li {
+    float: left;
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+li:hover {
+    border-bottom: 3px solid pink;
+}
+
+.li-right {
+    float: right;
+}

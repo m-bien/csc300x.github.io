@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>mrgood | Project CSC 300X</title>
+    <link rel="stylesheet" href="styles/admin.css">
+    <link rel="icon" href="assets\bunny-flaticon.png">
+</head>
+
+<body>
+    <!--- NAVIGATION -->
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img width="205px" src="assets/logo-square.png" alt="GBDS Logo"></a>
+        </div>
+        <h3 style="margin-top:65px">&ensp;&nbsp; ADMIN DASHBOARD</h3>
+        <ul>
+            <li><a href="admin-product-edit.html">PRODUCT EDIT</a></li>
+            <li><a href="admin-bulk-upload.html">BULK UPLOAD</a></li>
+            <li class="li-right"><a href="index.html">SIGN OUT</a></li>
+        </ul>
+    </nav>
+
+    <!--- PAGE CONTENTS -->
+    <section>
+        <div style="margin-left:50px">
+            <br>
+            <h2>Admin - Add Product / Product Edit</h2>
+            <form>
+                <label for="product-id">Product ID:</label>
+                <select>
+                    <option value="bear">3h894810</option>
+                    <option value="doll">jr8301j</option>
+                    <option value="clothes">4901di7a</option>
+                    <option value="bear">New ID</option>
+                </select>
+                <br><br>
+                <label for="name">Name: </label><input type="text"><br><br>
+                <label for="description">Description: </label><input type="text">
+                <br><br>
+                <label for="product-category">Category:</label>
+                <select>
+                    <option value="bear">Bear</option>
+                    <option value="doll">Doll</option>
+                    <option value="clothes">Clothes</option>
+                </select>
+                <br><br>
+                <label for="product-image">Image:</label>
+                <select>
+                    <option value="new">Use Existing Image</option>
+                    <option value="old">Upload New Image</option>
+                </select>
+                <br><br>
+                <label for="price">Price: </label><input type="text"><br><br>
+                <button>Publish Changes</button>
+            </form>
+        </div>
+        <br><br>
+    </section>
+
+    <!--- FOOTER -->
+    <footer>
+        <p>&copy The Good Bunny Doll Shop&#174; | CSC 300X Milestone 3</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,57 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--- Madelyn Good
+<!--- Madelyn Good,
       Milestone 1: create home page 
-      Milestone 2: add product list, details, and cart pages -->
+      Milestone 2: add product list, details, and cart pages
+      Milestone 3: add bulk upload and product edit admin pages -->
 
 <head>
     <meta charset="utf-8">
-    <title>mrgood | Milestone 2</title>
+    <title>mrgood | Project CSC 300X</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="home/styles.css">
+    <link rel="icon" href="assets\bunny-flaticon.png">
 </head>
 
 <body>
-
-    <!--- nav bar -->
-    <nav id="navbar">
-        <div>
-            <div class="logo">
-                <a href="index.html"><img width="150px" src="https://placeholderlogo.com/img/placeholder-logo-1.png"></a>
-            </div>
-            <ul id="menu">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="products.html">ALL PRODUCTS</a></li>
-                <li><a href="details.html">PRODUCT DETAILS</a></li>
-                <li><a href="cart.html">CART</a></li>
-            </ul>
-            <div id="search">
-                <input type="text" placeholder="Search...">
-                <button>&#128269</button>
-            </div>
+    <!--- NAVIGATION -->
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img width="205px" src="assets/logo-square.png" alt="GBDS Logo"></a>
         </div>
+        <h3 style="margin-top:65px">&ensp;&nbsp; COLLECTIBLE DOLLS</h3>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="product-details.html">SHOP</a></li>
+            <li><a href="cart.html">CART</a></li>
+            <li class="li-right"><a href="admin-product-edit.html">ADMIN</a></li>
+        </ul>
+        <button id="button-search"><img width="15px" src="assets/search-icon.png"></button>
+        <input id="search" type="text" placeholder="Search...">
     </nav>
 
-    <!--- splash section -->
+    <!--- PAGE CONTENTS -->
     <section>
-        <div class="image-container">
-            <img src="assets/raikes-bears-overlay.jpg" alt="splash image">
-            <div class="overlay-text">
-                <h1><b>COLLECTIBLE DOLLS</b></h1>
-                <p style="font-size:14px">Shop antique and vintage dolls, teddy bears, and accessories</p>
+        <!--- splash -->
+        <div class="splash" style="background-image: url('assets/raikes-bears-overlay0.5.png');"><br>
+            <div class="center" style="color:white">
+                <br><br>
+                <h3><i>Welcome to The Good Bunny Doll Shop!</i></h3>
+                <p>Vintage dolls, teddy bears, and accessories</p>
+                <br><br>
+                <button class="main">Shop Latest Collection</button>
             </div>
         </div>
     </section>
+    <section style="background-color:white">
+        <!--- grid -->
+        <br><br><h3 class="center">FEATURED ITEMS</h3>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="assets/raikes-bears-2.jpg" alt="Raikes Bears" style="width:100%">
+            </div>
+            <div class="grid-item">
+                <img src="assets/raikes-bears-2.jpg" alt="Raikes Bears" style="width:100%">
+            </div>
+            <div class="grid-item">
+                <img src="assets/raikes-bears-2.jpg" alt="Raikes Bears" style="width:100%">
+            </div>
+            <div class="grid-item">
+                <img src="assets/raikes-bears-2.jpg" alt="Raikes Bears" style="width:100%">
+            </div>
+            <div class="grid-item">
+                <img src="assets/raikes-bears-2.jpg" alt="Raikes Bears" style="width:100%">
+            </div>
+            <br>
+    </section>
 
-    <br>
-
-    <!--- footer -->
+    <!--- FOOTER -->
     <footer>
-        <div class="footer">
-            <p>&copy The Good Bunny Doll Shop | CSC 300X Milestone 1</p>
-        </div>
+        <p>&copy The Good Bunny Doll Shop&#174; | CSC 300X Milestone 1 (updated)</p>
     </footer>
+
 
 </body>
 

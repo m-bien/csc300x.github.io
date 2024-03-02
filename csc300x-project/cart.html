@@ -3,35 +3,36 @@
 
 <head>
     <meta charset="utf-8">
-    <title>mrgood | Milestone 2</title>
-    <link rel="stylesheet" href="styles/products.css">
+    <title>mrgood | Project CSC 300X</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="assets\bunny-flaticon.png">
 </head>
 
 <body>
-
-    <!--- nav bar -->
-    <nav id="navbar">
-        <div>
-            <div class="logo">
-                <a href="index.html"><img width="150px" src="https://placeholderlogo.com/img/placeholder-logo-1.png"></a>
-            </div>
-            <ul id="menu">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="products.html">ALL PRODUCTS</a></li>
-                <li><a href="details.html">PRODUCT DETAILS</a></li>
-                <li><a href="cart.html">CART</a></li>
-            </ul>
-            <div id="search">
-                <input type="text" placeholder="Search...">
-                <button>&#128269</button>
-            </div>
+    <!--- NAVIGATION -->
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img width="205px" src="assets/logo-square.png" alt="GBDS Logo"></a>
         </div>
+        <h3 style="margin-top:65px">&ensp;&nbsp; COLLECTIBLE DOLLS</h3>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="product-details.html">SHOP</a></li>
+            <li><a href="cart.html">CART</a></li>
+            <li class="li-right"><a href="admin-product-edit.html">ADMIN</a></li>
+        </ul>
+        <button id="button-search"><img width="15px" src="assets/search-icon.png"></button>
+        <input id="search" type="text" placeholder="Search...">
     </nav>
 
-    <!--- main section -->
+    <!--- PAGE CONTENTS -->
     <section>
-        <h2>Shopping Cart</h2>
-        <div style="margin:45px;">
+        <div style="margin-left:50px">
+        <br><h2>Shopping Cart</h2>
+        <p>These pages have already been graded for Milestone 2. <br> Hello wtf you mean "-3 no grand total calculated"
+            the assignment pdf I quote "The shopping cart total (you may hardcode this, later we will use
+            JavaScript to automatically calculate it)"
+        </p>
             <!--- items -->
             <table>
                 <tr>
@@ -78,17 +79,16 @@
                 </tr>
                 <tr>
                     <td style="border-bottom: 1px solid white"></td>
-                    <td style="border-bottom: 1px solid white"><button>CHECKOUT</button></td>
+                    <td style="border-bottom: 1px solid white"><button>Checkout</button></td>
                 </tr>
             </table>
         </div>
+        <br>
     </section>
 
-    <!--- footer -->
+    <!--- FOOTER -->
     <footer>
-        <div class="footer">
-            <p>&copy The Good Bunny Doll Shop | CSC 300X Milestone 2</p>
-        </div>
+        <p>&copy The Good Bunny Doll Shop&#174; | CSC 300X Milestone 2</p>
     </footer>
 
 </body>
